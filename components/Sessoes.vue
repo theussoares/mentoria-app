@@ -1,7 +1,7 @@
 <template>
   <div class="px-4 flex flex-col gap-10 pb-10">
     <header>
-      <h2 class="text-white font-semibold text-[24px]">{{ props.title }}</h2>
+      <h1 class="text-white font-semibold text-[24px]">{{ props.title }}</h1>
     </header>
 
     <section aria-labelledby="conteudos">
@@ -32,18 +32,18 @@
                 />
               </svg>
             </a>
-            <h4 class="text-black font-semibold text-[12px]">
+            <h3 class="text-black font-semibold text-[12px]">
               {{ conteudo.nome }}
-            </h4>
+            </h3>
           </li>
         </ul>
       </nav>
     </section>
 
     <section aria-labelledby="videos">
-      <h3 id="videos" class="text-white font-semibold text-[20px]">
+      <h2 id="videos" class="text-white font-semibold text-[20px]">
         Vídeos:
-      </h3>
+      </h2>
       <nav aria-label="Lista de vídeos">
         <ul class="flex gap-[10px] overflow-x-auto">
           <li v-for="video in data.videos" :key="video.id" class="bg-white flex flex-col w-[140px] h-[200px] rounded gap-2">
@@ -59,9 +59,9 @@
               allowfullscreen
             ></iframe>
             <div class="flex gap-1 px-2 justify-between items-center">
-              <h4 class="text-black font-semibold text-[10px]">
+              <h3 class="text-black font-semibold text-[10px]">
                 {{ video.nome }}
-              </h4>
+              </h3>
               <a :href="video.href" class="cursor-pointer" aria-label="Ir para vídeo {{ video.nome }}">
                 <svg
                   width="20"
@@ -86,9 +86,9 @@
     </section>
 
     <section aria-labelledby="desafios">
-      <h3 id="desafios" class="text-white font-semibold text-[20px]">
+      <h2 id="desafios" class="text-white font-semibold text-[20px]">
         Desafios:
-      </h3>
+      </h2>
       <nav aria-label="Lista de desafios">
         <ul class="flex w-full gap-[10px] overflow-x-auto">
           <li
@@ -113,9 +113,9 @@
                 />
               </svg>
             </a>
-            <h4 class="text-black font-semibold text-[12px]">
+            <h3 class="text-black font-semibold text-[12px]">
               {{ desafio.nome }}
-            </h4>
+            </h3>
           </li>
         </ul>
       </nav>
