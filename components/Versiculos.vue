@@ -1,10 +1,8 @@
 <template>
   <div class="m-4 p-4 flex justify-center items-center bg-[#694065] text-white rounded">
-    <div v-if="loading">Carregando versículo...</div>
+    <div v-if="loading" role="status">Carregando versículo...</div>
     <div v-else-if="error">{{ error }}</div>
-    <div v-else>
-      {{ versiculo }}
-    </div>
+    <article class="prose">{{ versiculo }}</article>
   </div>
 </template>
 
