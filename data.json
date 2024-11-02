@@ -1,79 +1,136 @@
 {
-    "conteudos": [
-        {
-            "id": 1,
-            "nome": "HTML - Primeiros passos",
-            "href": "https://pretty-smoke-846.notion.site/HTML-11d800e71d1e8017a0aee4e403a5cb5d"
-        },
-        {
-            "id": 2,
-            "nome": "Qualidade de código JS",
-            "href": "https://pretty-smoke-846.notion.site/Qualidade-de-c-digo-JavaScript-121800e71d1e80caa250df2abeac408a?pvs=4"
-        }
-    ],
-    "videos": [
-        {
-            "id": 1,
-            "nome": "Introdução - HTML",
-            "href": "https://www.youtube.com/embed/cLJGlrPOKSo?si=BISHR5xGM5Rdfp7u" 
-        },
-        {
-            "id": 2, 
-            "nome": "HTML - Tags principais 2",
-            "href": "https://www.youtube.com/embed/PiqGxc5lCi4?si=WQx95D_lIgNBBBLh" 
-        },
-        {
-            "id": 3, 
-            "nome": "HTML - Tags principais 1",
-            "href": "https://www.youtube.com/embed/6wVXPHF__cg?si=pghaU1MXV2ZtJEHx" 
-        },
-        {
-            "id": 4, 
-            "nome": "CSS - INtrodução",
-            "href": "https://www.youtube.com/embed/Lc364cmwzHg?si=W8NR5bRFxt9bCbZC" 
-        },
-        {
-            "id": 5, 
-            "nome": "CSS - Aula 1",
-            "href": "https://www.youtube.com/embed/D0NvBQZ0HYo?si=k0nTIfY9XZ94GYYp" 
-        },
-        {
-            "id": 6, 
-            "nome": "CSS - Aula 2",
-            "href": "https://www.youtube.com/embed/PsdkUUps5Uc?si=MD3ef728xYgnwwAq" 
-        },
-        {
-            "id": 7, 
-            "nome": "CSS - Aula 3",
-            "href": "https://www.youtube.com/embed/dl74XRmgHP8?si=44dj8VLy5ngzh2bm" 
-        },
-        {
-            "id": 8, 
-            "nome": "Desafio CSS - MentorFlix",
-            "href": "https://www.youtube.com/embed/eJEbygy2oLk?si=3hEphQyp-QvRzt7a" 
-        }
-    ],
-    "desafios": [
-        {
-            "id": 1,
-            "nome": "Desafio HTML - 1 - Formulario",
-            "href": " https://pretty-smoke-846.notion.site/Desafio-1-html-formulario-11d800e71d1e8009b7e5e101f64d843b"
-        },
-        {
-            "id": 2,
-            "nome": "Desafio HTML - 2 - Artigo",
-            "href": "https://pretty-smoke-846.notion.site/Desafio-HTML-2-120800e71d1e8010b6b5cd994fb9955a"
-        },
-        {
-            "id": 3,
-            "nome": "Desafio CSS - 1",
-            "href": "https://pretty-smoke-846.notion.site/Desafio-CSS-1-121800e71d1e806db220d42703248ff8?pvs=4"
-        },
-        {
-            "id": 4,
-            "nome": "Desafio CSS - 2",
-            "href": "https://pretty-smoke-846.notion.site/Desafio-css-2-12b800e71d1e809aab25dafbc66b8bc1?pvs=4"
-        }
-    ]
+    "html": {
+        "conteudos": [
+            {
+                "id": 1,
+                "nome": "HTML - Primeiros passos",
+                "href": "https://pretty-smoke-846.notion.site/HTML-11d800e71d1e8017a0aee4e403a5cb5d"
+            }
+        ],
+        "videos": [
+            {
+                "id": 1,
+                "nome": "Introdução - HTML",
+                "href": "https://www.youtube.com/embed/cLJGlrPOKSo?si=BISHR5xGM5Rdfp7u" 
+            },
+            {
+                "id": 2, 
+                "nome": "HTML - Tags principais 2",
+                "href": "https://www.youtube.com/embed/PiqGxc5lCi4?si=WQx95D_lIgNBBBLh" 
+            },
+            {
+                "id": 3, 
+                "nome": "HTML - Tags principais 1",
+                "href": "https://www.youtube.com/embed/6wVXPHF__cg?si=pghaU1MXV2ZtJEHx" 
+            }
+        ],
+        "desafios": [
+            {
+                "id": 1,
+                "nome": "Desafio HTML - 1 - Formulario",
+                "href": " https://pretty-smoke-846.notion.site/Desafio-1-html-formulario-11d800e71d1e8009b7e5e101f64d843b"
+            },
+            {
+                "id": 2,
+                "nome": "Desafio HTML - 2 - Artigo",
+                "href": "https://pretty-smoke-846.notion.site/Desafio-HTML-2-120800e71d1e8010b6b5cd994fb9955a"
+            }
+        ]
+    },
+    "css": {
+        "conteudos":[
+            {
+                "id": 1,
+                "nome": "Basico e FlexBox - CSS",
+                "href": "https://pretty-smoke-846.notion.site/Flex-box-132800e71d1e808ba234f409eb302013?pvs=4"
+            },
+            {
+                "id": 2,
+                "nome": "Intermediario - CSS",
+                "href": "https://pretty-smoke-846.notion.site/Intermedi-rio-de-CSS-e-Flexbox-132800e71d1e8091bbbad7686b6a2a58?pvs=4"
+            },
+            {
+                "id": 3,
+                "nome": "Avançado - CSS",
+                "href": "https://pretty-smoke-846.notion.site/Avan-ado-de-CSS-e-Flexbox-132800e71d1e806ba140d8f9dc2522c6?pvs=4"
+            }
+        ],
+        "videos":[
+            {
+                "id": 1, 
+                "nome": "CSS - INtrodução",
+                "href": "https://www.youtube.com/embed/Lc364cmwzHg?si=W8NR5bRFxt9bCbZC" 
+            },
+            {
+                "id": 2, 
+                "nome": "CSS - Aula 1",
+                "href": "https://www.youtube.com/embed/D0NvBQZ0HYo?si=k0nTIfY9XZ94GYYp" 
+            },
+            {
+                "id": 3, 
+                "nome": "CSS - Aula 2",
+                "href": "https://www.youtube.com/embed/PsdkUUps5Uc?si=MD3ef728xYgnwwAq" 
+            },
+            {
+                "id": 4, 
+                "nome": "CSS - Aula 3",
+                "href": "https://www.youtube.com/embed/dl74XRmgHP8?si=44dj8VLy5ngzh2bm" 
+            },
+            {
+                "id": 5, 
+                "nome": "Desafio CSS - MentorFlix",
+                "href": "https://www.youtube.com/embed/eJEbygy2oLk?si=3hEphQyp-QvRzt7a" 
+            }
+        ],
+        "desafios": [
+            {
+                "id": 1,
+                "nome": "Desafio CSS - 1",
+                "href": "https://pretty-smoke-846.notion.site/Desafio-CSS-1-121800e71d1e806db220d42703248ff8?pvs=4"
+            },
+            {
+                "id": 2,
+                "nome": "Desafio CSS - 2",
+                "href": "https://pretty-smoke-846.notion.site/Desafio-css-2-12b800e71d1e809aab25dafbc66b8bc1?pvs=4"
+            }
+        ]
+    },
+    "js": {
+        "conteudos":[
+             {
+                "id": 1,
+                "nome": "Qualidade de código JS",
+                "href": "https://pretty-smoke-846.notion.site/Qualidade-de-c-digo-JavaScript-121800e71d1e80caa250df2abeac408a?pvs=4"
+            },
+            {
+                "id": 2,
+                "nome": "Primeiros passos",
+                "href": "https://pretty-smoke-846.notion.site/Primeiros-Passos-em-JavaScript-132800e71d1e80ccab6ee4258eec8380?pvs=4"
+            }
+        ],
+        "videos":[
+            {
+                "id": 1,
+                "nome": "Introdução - JS",
+                "href": "https://www.youtube.com/embed/9n_798xd24A?si=bIUve7xP_stV6FbQ"
+            },
+            {
+                "id": 2,
+                "nome": "Variaveis - JS",
+                "href": "https://www.youtube.com/embed/7myIYUHpO9A?si=sLEspBEmqok-VbLW"
+            },
+            {
+                "id": 3,
+                "nome": "Funções - JS",
+                "href": "https://www.youtube.com/embed/LDLAPWr7nZ0?si=LBrUn_EKeKXszDjD"
+            },
+            {
+                "id": 4,
+                "nome": "Operações - JS",
+                "href": "https://www.youtube.com/embed/aYFWKguOrYs?si=F3YN2-ilRtcifBqX"
+            }
+        ],
+        "desafios":[]
+    }
 }
 
