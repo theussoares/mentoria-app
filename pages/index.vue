@@ -3,12 +3,15 @@
         <Header />
         <Banner />
         <Versiculos />
-        <Sessoes />
+        <Sessoes id="html" title="HTML" :data="dataJson.html"/>
+        <Sessoes id="css" title="CSS" :data="dataJson.css"/>
+        <Sessoes id="js" title="JavaScript" :data="dataJson.js"/>
         <Footer />
     </div>
 </template>
 
 <script setup lang="ts">
+import dataJson from "../data.json";
 
 </script>
 
