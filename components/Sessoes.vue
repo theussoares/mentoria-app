@@ -1,5 +1,6 @@
 <template>
   <div class="px-4 flex flex-col gap-10 pb-10">
+    <h2 class="text-white font-semibold text-[24px]">{{ props.title }}</h2>
     <div class="flex flex-col gap-4">
       <h2 id="conteudos" class="text-white font-semibold text-[20px]">
         Conteúdos:
@@ -35,9 +36,9 @@
     </div>
 
     <div class="flex flex-col gap-4">
-        <h2 id="videos" class="text-white font-semibold text-[20px]">
+        <h3 id="videos" class="text-white font-semibold text-[20px]">
         Vídeos:
-      </h2>
+      </h3>
       <div class="flex gap-[10px] overflow-x-auto">
         <div v-for="video in data.videos" :key="video.id" class="bg-white flex flex-col w-[140px] h-[200px] rounded gap-2"
 >
@@ -79,9 +80,9 @@
     </div>
     
     <div class="flex flex-col gap-4">
-      <h2 id="desafios" class="text-white font-semibold text-[20px]">
+      <h3 id="desafios" class="text-white font-semibold text-[20px]">
         Desafios:
-      </h2>
+      </h3>
       <div class="flex w-full gap-[10px] overflow-x-auto">
         <div
           v-for="desafio in data.desafios"
@@ -111,14 +112,11 @@
         </div>
       </div>
     </div>
-    
+    <hr>
   </div>
 </template>
 
 <script setup lang="ts">
-import dataJson from "../data.json";
-import play from "../public/botao-play.svg";
-
 // Definindo a interface para cada item das seções
 interface Sessao {
   id: number; // Supondo que o ID seja um número
@@ -133,8 +131,15 @@ interface Data {
   desafios: Sessao[];
 }
 
+interface Props {
+  data: Data;
+  title: string;
+}
+
+const props = defineProps<Props>()
+
 // Tipando o dado importado como um objeto do tipo 'Data'
-const data: Data = dataJson as Data;
+const data: Data = props.data as Data;
 </script>
 
 <style scoped></style>
