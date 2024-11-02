@@ -3,8 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   app: {
     head: {
+      title: 'Mentoria Frontend',
       htmlAttrs: {
-        lang: 'pt-BR' // ou o idioma desejado, como 'en' para inglês
+        lang: 'pt-BR',
       }
     }
   },
