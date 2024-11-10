@@ -130,7 +130,28 @@
                 "href": "https://www.youtube.com/embed/aYFWKguOrYs?si=F3YN2-ilRtcifBqX"
             }
         ],
-        "desafios":[]
+        "desafios":[
+            {
+                "id": 1,
+                "nome":"JavaScript - Desafio 1 - Variaveis",
+                "href": "https://github.com/theussoares/javascript-atividade--variaveis"
+            },
+            {
+                "id": 2,
+                "nome": "JavaScript - Desafio 2 - Loops e condições",
+                "href": "https://github.com/theussoares/javascript-ativiadade-loops/tree/main"
+            },
+            {
+                "id": 3,
+                "nome": "JavaScript - Desafio 3 - Loops - functions - condições",
+                "href": "https://github.com/theussoares/javascript-loop-function-condicao/tree/main"
+            },
+            {
+                "id": 4,
+                "nome": "JavaScript - Desafio 4 - Dividindo a conta",
+                "href": "https://github.com/theussoares/javascript-atividade-dividir-conta/tree/main"
+            }
+        ]
     }
 }
 
