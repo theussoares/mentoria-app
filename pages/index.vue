@@ -1,10 +1,11 @@
 <template>
     <div class="bg-[#200b34] min-h-screen mt-12 relative">
-        <Header />
+        <!-- <Header />
         <Banner />
         <Versiculos />
         <Sessoes />
-        <Footer />
+        <Footer /> -->
+        a
     </div>
 </template>
 
