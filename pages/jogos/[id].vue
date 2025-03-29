@@ -72,14 +72,14 @@ enterFullscreen();
 const enterFullscreen = () => {
   const iframe = document.getElementById('livePlayer') as any;
   if (iframe) {
-    if (iframe.requestFullscreen) {
-      iframe.requestFullscreen();
-    } else if (iframe.mozRequestFullScreen) { // Para Firefox
-      iframe.mozRequestFullScreen();
-    } else if (iframe.webkitRequestFullscreen) { // Para Chrome, Safari
-      iframe.webkitRequestFullscreen();
-    } else if (iframe.msRequestFullscreen) { // Para IE/Edge
-      iframe.msRequestFullscreen();
+    if (iframe?.requestFullscreen) {
+      iframe?.requestFullscreen();
+    } else if (iframe?.mozRequestFullScreen) { // Para Firefox
+      iframe?.mozRequestFullScreen();
+    } else if (iframe?.webkitRequestFullscreen) { // Para Chrome, Safari
+      iframe?.webkitRequestFullscreen();
+    } else if (iframe?.msRequestFullscreen) { // Para IE/Edge
+      iframe?.msRequestFullscreen();
     }
   } else {
   }
